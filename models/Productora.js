@@ -8,6 +8,7 @@ const ProductoraSchema = new Schema({
         fechaActualizacion: { type: Date, required: true, default: Date.now },      // Fecha de actualización de la productora
         slogan: { type: String, required: true },                                   // Slogan de la productora
         descripcion: { type: String, required: true }                               // Descripción de la productora
+        
 });
 
 // Exportar el modelo
